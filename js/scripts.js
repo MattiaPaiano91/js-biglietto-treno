@@ -12,7 +12,7 @@ if (isNaN(etàDelPasseggero)){
 
 let PrezzoBiglietto = (kilometriDaPercorrere * 0.21);
 
-
+console.log
 
 if (etàDelPasseggero < 18){
     Prezzo = (PrezzoBiglietto * 0.8).toFixed(2);
@@ -26,7 +26,8 @@ else{
      Prezzo = PrezzoBiglietto.toFixed(2);
  }
 
-document.getElementById('prezzo-biglietto').innerHTML = Prezzo
+ console.log('Prezzo' + Prezzo + typeof prezzo);
 
-console.log(Prezzo);
+document.getElementById ('prezzo-biglietto').innerHTML += Prezzo + '$'
+
 
